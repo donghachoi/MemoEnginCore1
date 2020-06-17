@@ -13,5 +13,11 @@ namespace MemoEnginCore1
         {
 
         }
+
+        protected void btnClick_Click(object sender, EventArgs e)
+        {
+            lelDisplay.Text = txtInput.Text;
+            txtInput.Text = "";
+        }
     }
 }
